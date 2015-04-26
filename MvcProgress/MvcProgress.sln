@@ -5,6 +5,27 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Protal", "Protal\Protal.csproj", "{98BF3D2D-66F3-4D2D-B6E1-62A31A8F39C1}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "asp_net_progressbar(IEUpdate)", "http://localhost:41527", "{AF19F01D-C4BE-4D62-A8EB-2C892C3F3B9F}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_41527"
+		Debug.AspNetCompiler.PhysicalPath = "D:\Documents\Downloads\asp_net_progressbar(IEUpdate)\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_41527\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_41527"
+		Release.AspNetCompiler.PhysicalPath = "D:\Documents\Downloads\asp_net_progressbar(IEUpdate)\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_41527\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "D:\Documents\Downloads\asp_net_progressbar(IEUpdate)\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +36,10 @@ Global
 		{98BF3D2D-66F3-4D2D-B6E1-62A31A8F39C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98BF3D2D-66F3-4D2D-B6E1-62A31A8F39C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98BF3D2D-66F3-4D2D-B6E1-62A31A8F39C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF19F01D-C4BE-4D62-A8EB-2C892C3F3B9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF19F01D-C4BE-4D62-A8EB-2C892C3F3B9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF19F01D-C4BE-4D62-A8EB-2C892C3F3B9F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF19F01D-C4BE-4D62-A8EB-2C892C3F3B9F}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

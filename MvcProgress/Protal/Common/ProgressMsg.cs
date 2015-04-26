@@ -40,6 +40,8 @@ namespace Protal.Common
            // this.FileSize = fileSize;
             this.Status = "开始上传";
         }
+
+   
         /// <summary>
         /// 文件名
         /// </summary>
@@ -101,6 +103,8 @@ namespace Protal.Common
         public double CostTime { get; set; }
 
         public double Finish { get; set; }
+
+        public bool Abort { get; set; }
 
     }
 }

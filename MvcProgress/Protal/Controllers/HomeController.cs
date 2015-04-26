@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Protal.Common;
 
 namespace Protal.Controllers
 {
@@ -16,20 +17,21 @@ namespace Protal.Controllers
             return View();
         }
 
-        public ActionResult GetProgress(string gid)
+        public ActionResult GetProgress(string guid)
         {
-
-            return Json("");
+            return Json(HttpContext.Cache[guid]);
         }
 
-        public ActionResult Abort()
+        public ActionResult Abort(string guid)
         {
-            return Json("")
+            HttpContext.Cache[guid] = null;
+            return Json("ok");
         }
 
-        public ActionResult Exec()
+        public ActionResult Exec(string guid)
         {
-            return Json("");
+            MessageFactory.GenMsg(guid);
+            return Json("ok");
         }
 
     }
